@@ -48,6 +48,7 @@ Project uses a number of open source projects to work properly:
 API endpoint - http://localhost:8080
 Swagger endpoint - http://localhost:8080/swagger/index.html
 
+[gin]: https://gin-gonic.com/
 [mongodb]: https://www.mongodb.com/
 [docker]: https://www.docker.com/
 [kubernetes]: https://kubernetes.io/
