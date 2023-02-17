@@ -1,6 +1,6 @@
 # Mongo-Go REST API
 
-mongo-api is a REST API using MongoDB, Redis, Docker, Kubernetes and JWT.
+mongo-api is a REST API using MongoDB, Redis, Docker and JWT.
 
 ### Features!
 
@@ -43,7 +43,6 @@ Project uses a number of open source projects to work properly:
 - [MongoDB] - document-based, big community, database
 - [Redis] - in-memory database using key-value pairs
 - [Docker] - Build, Share, and Run Any App, Anywhere
-- [Kubernetes] - Automating deployment, scaling, and management of containerized applications
 
 API endpoint - http://localhost:8080
 Swagger endpoint - http://localhost:8080/swagger/index.html
@@ -51,5 +50,4 @@ Swagger endpoint - http://localhost:8080/swagger/index.html
 [gin]: https://gin-gonic.com/
 [mongodb]: https://www.mongodb.com/
 [docker]: https://www.docker.com/
-[kubernetes]: https://kubernetes.io/
 [redis]: https://redis.io/
