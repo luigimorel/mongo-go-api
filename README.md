@@ -51,3 +51,21 @@ Swagger endpoint - http://localhost:8080/swagger/index.html
 [mongodb]: https://www.mongodb.com/
 [docker]: https://www.docker.com/
 [redis]: https://redis.io/
+
+### Run app as a container
+
+At the root of the project
+
+```bash
+docker build -t my-app-image .
+
+```
+
+2. Start the Redis and MongoDB containers
+
+```
+$ docker run --name my-mongo-container -d mongo
+
+$ docker run --name some-redis -d redis
+
+```
