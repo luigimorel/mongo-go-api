@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"mongo-auth/models"
-	"mongo-auth/services"
 	"net/http"
+
+	"github.com/morelmiles/mongo-auth/models"
+	"github.com/morelmiles/mongo-auth/services"
 
 	"github.com/gin-gonic/gin"
 )

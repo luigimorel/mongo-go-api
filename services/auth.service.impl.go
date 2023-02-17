@@ -3,10 +3,11 @@ package services
 import (
 	"context"
 	"errors"
-	"mongo-auth/models"
-	"mongo-auth/utils"
 	"strings"
 	"time"
+
+	"github.com/morelmiles/mongo-auth/models"
+	"github.com/morelmiles/mongo-auth/utils"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

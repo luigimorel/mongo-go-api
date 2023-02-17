@@ -2,8 +2,9 @@ package services
 
 import (
 	"context"
-	"mongo-auth/models"
 	"strings"
+
+	"github.com/morelmiles/mongo-auth/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

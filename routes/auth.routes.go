@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"mongo-auth/controllers"
-	"mongo-auth/middleware"
-	"mongo-auth/services"
+	"github.com/morelmiles/mongo-auth/controllers"
+	"github.com/morelmiles/mongo-auth/middleware"
+	"github.com/morelmiles/mongo-auth/services"
 
 	"github.com/gin-gonic/gin"
 )

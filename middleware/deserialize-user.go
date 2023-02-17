@@ -2,11 +2,12 @@ package middleware
 
 import (
 	"fmt"
-	"mongo-auth/config"
-	"mongo-auth/services"
-	"mongo-auth/utils"
 	"net/http"
 	"strings"
+
+	"github.com/morelmiles/mongo-auth/config"
+	"github.com/morelmiles/mongo-auth/services"
+	"github.com/morelmiles/mongo-auth/utils"
 
 	"github.com/gin-gonic/gin"
 )

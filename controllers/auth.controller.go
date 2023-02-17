@@ -2,12 +2,13 @@ package controllers
 
 import (
 	"fmt"
-	"mongo-auth/config"
-	"mongo-auth/models"
-	"mongo-auth/services"
-	"mongo-auth/utils"
 	"net/http"
 	"strings"
+
+	"github.com/morelmiles/mongo-auth/config"
+	"github.com/morelmiles/mongo-auth/models"
+	"github.com/morelmiles/mongo-auth/services"
+	"github.com/morelmiles/mongo-auth/utils"
 
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/mongo"

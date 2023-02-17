@@ -1,6 +1,6 @@
 package services
 
-import "mongo-auth/models"
+import "github.com/morelmiles/mongo-auth/models"
 
 type UserService interface {
 	FindUserById(string) (*models.DBResponse, error)

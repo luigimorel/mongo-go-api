@@ -4,11 +4,12 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"mongo-auth/config"
-	"mongo-auth/controllers"
-	"mongo-auth/routes"
-	"mongo-auth/services"
 	"net/http"
+
+	"github.com/morelmiles/mongo-auth/config"
+	"github.com/morelmiles/mongo-auth/controllers"
+	"github.com/morelmiles/mongo-auth/routes"
+	"github.com/morelmiles/mongo-auth/services"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
